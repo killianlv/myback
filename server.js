@@ -20,6 +20,6 @@ app.get('/api/data', (req, res) => {
 });
 
 // Starting the server
-app.listen(4000, () => {
-  console.log('Server started on port 4000');
+app.listen(80, () => {
+  console.log('Server started on port 80');
 });
