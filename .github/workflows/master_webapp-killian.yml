@@ -34,6 +34,6 @@ jobs:
       with:
         app-name: webapp-killian
         slot-name: Production
-        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DE3201869E414B178C91C008BA2149B9 }}
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BE4D585E46B24DB89D1E6869C335419E }}
         package: .
 
